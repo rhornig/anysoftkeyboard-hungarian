@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboards>
+    <Keyboard nameResId="@string/hungarian_keyboard" layoutResId="@xml/hu_qwertz" landscapeResId="@xml/hu_landscape" enabledPrefStringId="hungarian_keyboard" sortOrder="121" defaultDictionaryName="Hungarian" description="Created by Henrik Andersson"/>
+    <Keyboard nameResId="@string/hungarian_keyboard_4_row" layoutResId="@xml/hu_qwertz_4_row" landscapeResId="@xml/hu_landscape" enabledPrefStringId="hungarian_keyboard_4_row" sortOrder="122" defaultDictionaryName="Hungarian" description=""/>
+    <Keyboard nameResId="@string/hungarian_keyboard_yesaku" layoutResId="@xml/hu_yesaku" landscapeResId="@xml/hu_landscape" enabledPrefStringId="hungarian_keyboard_yesaku" sortOrder="123" defaultDictionaryName="Hungarian" description="Mimimizes finger travel (by EclipSim)"/>
+    <!-- Template
+        <Keyboard nameResId="@string/" iconResId="@drawable/" layoutResId="@xml/" landscapeResId="@xml/" enabledPrefStringId="" sortOrder="" defaultDictionaryName="" additionalIsLetterExceptions="" physicalKeyboardMappingResId="@xml/" description=""/>
+    -->
+</Keyboards>

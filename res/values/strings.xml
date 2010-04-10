@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AnySoftKeyboard - Hungarian Language Pack</string>
+    <string name="hungarian_keyboard">Hungarian</string>
+    <string name="hungarian_keyboard_4_row">Hungarian - 4 rows</string>
+    <string name="hungarian_keyboard_yesaku">Hungarian - YESAKU (experimental)</string>
+    <string name="hungarian_dictionary">Hungarian (ispell 1.6.1)</string>
+</resources>
