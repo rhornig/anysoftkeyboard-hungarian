@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Dictionaries>
-    <Dictionary nameResId="@string/hungarian_dictionary" key="Hungarian" type="binary" dictionaryAssertName="hu_binary.mp3" description="Based on magyarispell 1.6.1"/>
-
-    <!-- Template
+	<!--
+	id := a UUID (you may want to generate this using our simple Java program at:  /trunk/project/dict_creation (uuidgen_Windows.bat or uuidgen_Linux)
+	locale := a locate identifier for this dictionary. E.g., English will be en, Hebrew will be iw, etc.
+	nameResId := the resource Id which holds the name of the dictionary. See strings.xml.
+	type := currently we only support binary dictionaries.
+	dictionaryAssertName := the binary data holder
+	description := some text you would like to add.
         <Dictionary nameResId="@string/eng_dictionary" key="English" type="binary" dictionaryAssertName="en_binary.mp3" description=""/>
-    -->
+	 -->
+    <Dictionary nameResId="@string/hungarian_dictionary" locale="hu" id="35a800d5-0f7e-4e2a-9cb2-063167466ff0" type="binary" dictionaryAssertName="hu_binary.mp3" description="Based on magyarispell 1.6.1"/>
 </Dictionaries>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AnySoftKeyboard - Magyar nyelvi csomag</string>
+    <string name="hungarian_keyboard_3row">Magyar (3 soros)</string>
+    <string name="hungarian_keyboard_4row">Magyar - teljes</string>
+    <string name="hungarian_keyboard_yesaku">Magyar - YESAKU (kísérleti)</string>
+    <string name="hungarian_dictionary">Magyar (ispell 1.6.1)</string>
+</resources>

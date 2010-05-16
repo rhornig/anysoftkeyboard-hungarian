@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Keyboards>
-    <Keyboard nameResId="@string/hungarian_keyboard" layoutResId="@xml/hu_qwertz" landscapeResId="@xml/hu_landscape" enabledPrefStringId="hungarian_keyboard" sortOrder="121" defaultDictionaryName="Hungarian" description="Created by Henrik Andersson"/>
-    <Keyboard nameResId="@string/hungarian_keyboard_4_row" layoutResId="@xml/hu_qwertz_4_row" landscapeResId="@xml/hu_landscape" enabledPrefStringId="hungarian_keyboard_4_row" sortOrder="122" defaultDictionaryName="Hungarian" description=""/>
-    <Keyboard nameResId="@string/hungarian_keyboard_yesaku" layoutResId="@xml/hu_yesaku" landscapeResId="@xml/hu_landscape" enabledPrefStringId="hungarian_keyboard_yesaku" sortOrder="123" defaultDictionaryName="Hungarian" description="Mimimizes finger travel (by EclipSim)"/>
-    <!-- Template
-        <Keyboard nameResId="@string/" iconResId="@drawable/" layoutResId="@xml/" landscapeResId="@xml/" enabledPrefStringId="" sortOrder="" defaultDictionaryName="" additionalIsLetterExceptions="" physicalKeyboardMappingResId="@xml/" description=""/>
-    -->
+	<!--
+	id := a UUID (you may want to generate this using our simple Java program at:  /trunk/project/dict_creation (uuidgen_Windows.bat or uuidgen_Linux)
+	nameResId := the resource Id which holds the name of the keyboard. See strings.xml.
+	layoutResId := the resource Id which holds the layout definition of this keyboard. The sample is an English QWERTY keyboard.
+	defaultDictionaryLocale := a locate identifier for this keyboard. E.g., English will be en, Hebrew will be iw, etc.
+	description := some text you would like to add.
+	index := the sort index of this keyboard in the Settings page.
+	 -->
+    <Keyboard nameResId="@string/hungarian_keyboard_3row" layoutResId="@xml/hu_qwertz" landscapeResId="@xml/hu_landscape" index="1" defaultDictionaryLocale="hu" description="Standard qwertz with ÁÉ keys" id="fffa1534-8de7-4a8e-ae5a-60e8921aeb3b" />
+    <Keyboard nameResId="@string/hungarian_keyboard_4row" layoutResId="@xml/hu_qwertz_4_row" landscapeResId="@xml/hu_landscape" index="2" defaultDictionaryLocale="hu" description="All accented chars in 4 rows" id="ec82ebae-6d73-496c-9f32-f653e35d7b81" />
+<!-- 
+    <Keyboard nameResId="@string/hungarian_keyboard_yesaku" layoutResId="@xml/hu_yesaku" landscapeResId="@xml/hu_landscape" index="3" defaultDictionaryLocale="hu" description="Minimizes finger travel (by EclipSim)" id="f7246eef-3553-46d8-a579-00c66907aab4"/>
+ -->    
 </Keyboards>

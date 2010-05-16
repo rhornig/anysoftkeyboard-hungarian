@@ -1,4 +1,4 @@
-package com.menny.anysoftkeyboard.hungarian;
+package com.anysoftkeyboard.languagepack.hungarian;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
