@@ -4,7 +4,7 @@
     android:keyWidth="10%p"
     android:horizontalGap="0px"
     android:verticalGap="0px"
-    android:keyHeight="@dimen/key_height"
+    android:keyHeight="46dip"
     >
 
     <Row android:keyWidth="8.3333%p">
@@ -32,15 +32,14 @@
         <Key android:codes="106" android:keyLabel="j"/>
         <Key android:codes="107" android:keyLabel="k"/>
         <Key android:codes="108" android:keyLabel="l"/>
-        <Key android:codes="233" android:keyLabel=""/>        
-        <Key android:codes="225" android:keyLabel=""/>
-        <Key android:codes="369" android:keyLabel="" android:keyEdgeFlags="right"/>
+        <Key android:codes="233" android:keyLabel="é"/>
+        <Key android:codes="225" android:keyLabel="á"/>
+        <Key android:codes="369" android:keyLabel="ű" android:keyEdgeFlags="right"/>
     </Row>
 
-    <Row  android:keyWidth="7.692%p">
-        <Key android:codes="-1" 
-                android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
-        <Key android:codes="237" android:keyLabel=""/>
+    <Row android:keyWidth="7.686%p">
+        <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyWidth="8.3333%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="237" android:keyLabel="í"/>
         <Key android:codes="121" android:keyLabel="y"/>
         <Key android:codes="120" android:keyLabel="x"/>
         <Key android:codes="99" android:keyLabel="c"/>
@@ -48,10 +47,10 @@
         <Key android:codes="98" android:keyLabel="b"/>
         <Key android:codes="110" android:keyLabel="n"/>
         <Key android:codes="109" android:keyLabel="m"/>
-        <Key android:codes="246" android:keyLabel=""/>
-        <Key android:codes="252" android:keyLabel=""/>
-        <Key android:codes="243" android:keyLabel=""/>
-        <Key android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true"/>
+        <Key android:codes="246" android:keyLabel="ö"/>
+        <Key android:codes="252" android:keyLabel="ü"/>
+        <Key android:codes="243" android:keyLabel="ó"/>
+        <Key android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="8.3333%p"/>
     </Row>
 
 </Keyboard>
