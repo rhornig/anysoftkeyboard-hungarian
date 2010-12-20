@@ -15,6 +15,4 @@
     <SequenceMapping keySequence="KEYCODE_U,KEYCODE_U,KEYCODE_U,KEYCODE_U" targetChar="ű" />
     <SequenceMapping keySequence="KEYCODE_U,KEYCODE_U,KEYCODE_U,KEYCODE_U,KEYCODE_U" targetChar="ù" />
 
-	<SequenceMapping keySequence="KEYCODE_Z" targetChar="y" />
-	<SequenceMapping keySequence="KEYCODE_Y" targetChar="z" />
 </PhysicalTranslation>

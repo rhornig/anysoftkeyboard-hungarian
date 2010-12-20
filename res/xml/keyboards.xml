@@ -9,28 +9,47 @@
 	description := some text you would like to add.
 	index := the sort index of this keyboard in the Settings page.
 	 -->
-    <Keyboard nameResId="@string/hungarian_keyboard_3row" 
+    <Keyboard nameResId="@string/hungarian_keyboard_qwertz" 
               layoutResId="@xml/hu_qwertz" 
               landscapeResId="@xml/hu_qwertz_landscape" 
               physicalKeyboardMappingResId="@xml/hu_qwertz_physical"
               index="1" 
               defaultDictionaryLocale="hu" 
-              description="Standard qwertz with ÁÉ keys" 
+              description="@string/hungarian_keyboard_qwertz_desc" 
               id="fffa1534-8de7-4a8e-ae5a-60e8921aeb3b" />
-    <Keyboard nameResId="@string/hungarian_keyboard_4row" 
-              layoutResId="@xml/hu_qwertz_4_row" 
-              landscapeResId="@xml/hu_qwertz_landscape" 
-              physicalKeyboardMappingResId="@xml/hu_qwertz_physical"
+    <Keyboard nameResId="@string/hungarian_keyboard_qwerty" 
+              layoutResId="@xml/hu_qwerty" 
+              landscapeResId="@xml/hu_qwerty_landscape" 
+              physicalKeyboardMappingResId="@xml/hu_qwerty_physical"
               index="2" 
               defaultDictionaryLocale="hu" 
-              description="All accented chars in 4 rows" 
-              id="ec82ebae-6d73-496c-9f32-f653e35d7b81" />
-    <Keyboard nameResId="@string/hungarian_keyboard_yesaku" 
-              layoutResId="@xml/hu_yesaku" 
+              description="@string/hungarian_keyboard_qwerty_desc" 
+              id="c074dd9d-6ab1-428d-8b91-aa7064f9a831" />
+
+    <Keyboard nameResId="@string/hungarian_keyboard_qwertz_all" 
+              layoutResId="@xml/hu_qwertz_all" 
               landscapeResId="@xml/hu_qwertz_landscape" 
               physicalKeyboardMappingResId="@xml/hu_qwertz_physical"
               index="3" 
               defaultDictionaryLocale="hu" 
-              description="Minimizes finger travel (by EclipSim)" 
+              description="@string/hungarian_keyboard_qwertz_all_desc" 
+              id="ec82ebae-6d73-496c-9f32-f653e35d7b81" />
+              
+    <Keyboard nameResId="@string/hungarian_keyboard_qwerty_all" 
+              layoutResId="@xml/hu_qwerty_all" 
+              landscapeResId="@xml/hu_qwerty_landscape" 
+              physicalKeyboardMappingResId="@xml/hu_qwerty_physical"
+              index="4" 
+              defaultDictionaryLocale="hu" 
+              description="@string/hungarian_keyboard_qwerty_all_desc" 
+              id="d547d4bb-6a2f-4a7b-ab5f-a45a7a92c05c" />
+              
+    <Keyboard nameResId="@string/hungarian_keyboard_yesaku" 
+              layoutResId="@xml/hu_yesaku" 
+              landscapeResId="@xml/hu_qwertz_landscape" 
+              physicalKeyboardMappingResId="@xml/hu_qwertz_physical"
+              index="5" 
+              defaultDictionaryLocale="hu" 
+              description="@string/hungarian_keyboard_yesaku_desc" 
               id="f7246eef-3553-46d8-a579-00c66907aab4"/>
 </Keyboards>

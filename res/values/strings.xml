@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AnySoftKeyboard - Hungarian Language Pack</string>
-    <string name="hungarian_keyboard_3row">Hungarian (3row)</string>
-    <string name="hungarian_keyboard_4row">Hungarian - full</string>
-    <string name="hungarian_keyboard_yesaku">Hungarian - YESAKU (experimental)</string>
     <string name="hungarian_dictionary">Hungarian (ispell 1.6.1)</string>
+
+    <string name="hungarian_keyboard_qwerty">Hungarian (qwerty)</string>
+    <string name="hungarian_keyboard_qwerty_desc">Accented chars in 3 rows with Y in the top row</string>
+
+    <string name="hungarian_keyboard_qwerty_all">Hungarian (qwerty) full</string>
+    <string name="hungarian_keyboard_qwerty_all_desc">All accented chars arranged in 4 rows with Y in the top row</string>
+
+    <string name="hungarian_keyboard_qwertz">Hungarian (qwertz)</string>
+    <string name="hungarian_keyboard_qwertz_desc">Accented chars in 3 rows</string>
+
+    <string name="hungarian_keyboard_qwertz_all">Hungarian (qwertz) full</string>
+    <string name="hungarian_keyboard_qwertz_all_desc">All accented chars arranged in 4 rows</string>
+
+    <string name="hungarian_keyboard_yesaku">Hungarian - YESAKU (experimental)</string>
+    <string name="hungarian_keyboard_yesaku_desc">Minimizes finger travel (by EclipSim)</string>
 </resources>

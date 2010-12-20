@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AnySoftKeyboard - Magyar nyelvi csomag</string>
-    <string name="hungarian_keyboard_3row">Magyar (3 soros)</string>
-    <string name="hungarian_keyboard_4row">Magyar - teljes</string>
-    <string name="hungarian_keyboard_yesaku">Magyar - YESAKU (kísérleti)</string>
     <string name="hungarian_dictionary">Magyar (ispell 1.6.1)</string>
+
+    <string name="hungarian_keyboard_qwerty">Magyar (qwerty)</string>
+    <string name="hungarian_keyboard_qwerty_desc">3 soros, hosszú ékezetek többszörös gomblenyomással</string>
+
+    <string name="hungarian_keyboard_qwerty_all">Magyar (qwerty, 4 soros)</string>
+    <string name="hungarian_keyboard_qwerty_all_desc">Minden ékezetes karakter 4 sorban</string>
+
+    <string name="hungarian_keyboard_qwertz">Magyar (qwertz)</string>
+    <string name="hungarian_keyboard_qwertz_desc">3 soros, hosszú ékezetek többszörös gomblenyomással</string>
+
+    <string name="hungarian_keyboard_qwertz_all">Magyar (qwertz, 4 soros)</string>
+    <string name="hungarian_keyboard_qwertz_all_desc">Minden ékezetes karakter 4 sorban</string>
+
+    <string name="hungarian_keyboard_yesaku">Magyar - YESAKU (kísérleti)</string>
+    <string name="hungarian_keyboard_yesaku_desc">Minimalizálja az ujj mozgását (by EclipSim)</string>
 </resources>
