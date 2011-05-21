@@ -15,6 +15,9 @@
     <string name="hungarian_keyboard_qwertz_all">Hungarian (qwertz) full</string>
     <string name="hungarian_keyboard_qwertz_all_desc">All accented chars arranged in 4 rows</string>
 
+    <string name="hungarian_keyboard_qwertz_tablet">Hungarian (qwertz - tablet)</string>
+    <string name="hungarian_keyboard_qwertz_tablet_desc">Hungarian layout optimized for landscape tablet with thumb typing</string>
+
     <string name="hungarian_keyboard_yesaku">Hungarian - YESAKU (experimental)</string>
     <string name="hungarian_keyboard_yesaku_desc">Minimizes finger travel (by EclipSim)</string>
 </resources>

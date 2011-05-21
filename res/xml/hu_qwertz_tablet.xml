@@ -7,13 +7,26 @@
     android:keyHeight="@dimen/key_height"
     >
 
+    <Row android:verticalGap="3px">
+        <Key android:codes="48" android:popupCharacters="-" android:keyEdgeFlags="left"/>
+        <Key android:codes="49" android:popupCharacters="'"/>
+        <Key android:codes="50" android:popupCharacters="&#34;"/>
+        <Key android:codes="51" android:popupCharacters="+"/>
+        <Key android:codes="52" android:popupCharacters="!"/>
+        <Key android:codes="53" android:popupCharacters="%"/>
+        <Key android:codes="54" android:popupCharacters="/"/>
+        <Key android:codes="55" android:popupCharacters="="/>
+        <Key android:codes="56" android:popupCharacters="("/>
+        <Key android:codes="57" android:popupCharacters=")" android:keyEdgeFlags="right"/>
+    </Row>
+
     <Row>
-        <Key android:codes="q" android:popupCharacters="" android:keyLabel="" android:keyEdgeFlags="left"/>
-        <Key android:codes="w" android:popupCharacters="" android:keyLabel=""/>
-        <Key android:codes="e,é" android:popupCharacters="é" android:keyLabel=""/>
-        <Key android:codes="r" android:popupCharacters="1" android:keyLabel=""/>
-        <Key android:codes="t" android:popupCharacters="2" android:keyLabel=""/>
-        <Key android:codes="y" android:popupCharacters="3" android:keyLabel=""/>
+        <Key android:codes="q" android:popupCharacters="&#92;" android:keyLabel="" android:keyEdgeFlags="left"/>
+        <Key android:codes="w" android:popupCharacters="&#124;" android:keyLabel=""/>
+        <Key android:codes="e,é" android:popupCharacters="€é" android:keyLabel=""/>
+        <Key android:codes="r" android:popupCharacters="" android:keyLabel=""/>
+        <Key android:codes="t" android:popupCharacters="" android:keyLabel=""/>
+        <Key android:codes="z" android:popupCharacters="" android:keyLabel=""/>
         <Key android:codes="u,ú,ù" android:popupCharacters="űüùú" android:keyLabel=""/>
         <Key android:codes="i,í,ì" android:popupCharacters="ìí" android:keyLabel=""/>
         <Key android:codes="o,ó,ò" android:popupCharacters="őöòó" android:keyLabel=""/>
@@ -22,25 +35,25 @@
 
     <Row>
         <Key android:codes="a,á,à"  android:popupCharacters="áà" android:keyLabel="" android:keyEdgeFlags="left"/>
-        <Key android:codes="s" android:popupCharacters="" android:keyLabel=""/>
+        <Key android:codes="s" android:popupCharacters="$" android:keyLabel=""/>
         <Key android:codes="d" android:popupCharacters="" android:keyLabel=""/>
-        <Key android:codes="f" android:popupCharacters="4" android:keyLabel=""/>
-        <Key android:codes="g" android:popupCharacters="5" android:keyLabel=""/>
-        <Key android:codes="h" android:popupCharacters="6" android:keyLabel=""/>
+        <Key android:codes="f" android:popupCharacters="[" android:keyLabel=""/>
+        <Key android:codes="g" android:popupCharacters="]" android:keyLabel=""/>
+        <Key android:codes="h" android:popupCharacters="" android:keyLabel=""/>
         <Key android:codes="j" android:popupCharacters="" android:keyLabel=""/>
         <Key android:codes="k" android:popupCharacters="" android:keyLabel=""/>
         <Key android:codes="l" android:popupCharacters="" android:keyLabel=""/>
-        <Key android:codes="é" android:popupCharacters="" android:keyLabel="" android:keyEdgeFlags="right"/>
+        <Key android:codes="é" android:popupCharacters="$" android:keyLabel="" android:keyEdgeFlags="right"/>
     </Row>
 
     <Row>
-        <Key android:codes="z" android:popupCharacters="" android:keyLabel="" android:keyEdgeFlags="left"/>
-        <Key android:codes="x" android:popupCharacters="" android:keyLabel=""/>
-        <Key android:codes="c" android:popupCharacters="" android:keyLabel=""/>
-        <Key android:codes="v" android:popupCharacters="7" android:keyLabel=""/>
-        <Key android:codes="b" android:popupCharacters="8" android:keyLabel=""/>
-        <Key android:codes="n" android:popupCharacters="9" android:keyLabel=""/>
-        <Key android:codes="m" android:popupCharacters="0" android:keyLabel=""/>
+        <Key android:codes="y" android:popupCharacters=">" android:keyLabel="" android:keyEdgeFlags="left"/>
+        <Key android:codes="x" android:popupCharacters="#" android:keyLabel=""/>
+        <Key android:codes="c" android:popupCharacters="&#38;" android:keyLabel=""/>
+        <Key android:codes="v" android:popupCharacters="\@" android:keyLabel=""/>
+        <Key android:codes="b" android:popupCharacters="{" android:keyLabel=""/>
+        <Key android:codes="n" android:popupCharacters="}" android:keyLabel=""/>
+        <Key android:codes="m" android:popupCharacters="&#60;" android:keyLabel=""/>
         <Key android:codes="á,à" android:popupCharacters="à" android:keyLabel=""/>
         <Key android:codes="-5" android:keyWidth="20%p" android:isRepeatable="true" android:keyEdgeFlags="right" />
     </Row>
