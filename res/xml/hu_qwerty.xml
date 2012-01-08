@@ -10,18 +10,18 @@
     <Row>
         <Key android:codes="q" android:popupCharacters="" android:keyLabel="" android:keyEdgeFlags="left"/>
         <Key android:codes="w" android:popupCharacters="" android:keyLabel=""/>
-        <Key android:codes="e,é" android:popupCharacters="é" android:keyLabel=""/>
+        <Key android:codes="e" android:popupCharacters="é" android:keyLabel=""/>
         <Key android:codes="r" android:popupCharacters="1" android:keyLabel=""/>
         <Key android:codes="t" android:popupCharacters="2" android:keyLabel=""/>
         <Key android:codes="y" android:popupCharacters="3" android:keyLabel=""/>
-        <Key android:codes="u,ú,ù" android:popupCharacters="űüùú" android:keyLabel=""/>
+        <Key android:codes="u,ú,ù" android:popupCharacters="úù" android:keyLabel=""/>
         <Key android:codes="i,í,ì" android:popupCharacters="ìí" android:keyLabel=""/>
-        <Key android:codes="o,ó,ò" android:popupCharacters="őöòó" android:keyLabel=""/>
+        <Key android:codes="o,ó,ò" android:popupCharacters="óò" android:keyLabel=""/>
         <Key android:codes="p" android:popupCharacters="" android:keyLabel="" android:keyEdgeFlags="right"/>
     </Row>
 
     <Row>
-        <Key android:codes="a,á,à"  android:popupCharacters="áà" android:keyLabel="" android:keyEdgeFlags="left"/>
+        <Key android:codes="a"  android:popupCharacters="áà" android:keyLabel="" android:keyEdgeFlags="left"/>
         <Key android:codes="s" android:popupCharacters="" android:keyLabel=""/>
         <Key android:codes="d" android:popupCharacters="" android:keyLabel=""/>
         <Key android:codes="f" android:popupCharacters="4" android:keyLabel=""/>
