@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ask="http://schemas.android.com/apk/res/com.anysoftkeyboard.languagepack.hungarian"
     android:keyWidth="12.5%p"
     android:horizontalGap="0px"
     android:verticalGap="0px"
@@ -15,7 +16,7 @@
         <Key android:codes="o,ó,ö,ő,q" android:popupCharacters="óöőòq"/>
         <Key android:codes="d" android:popupCharacters=""/>
         <Key android:codes="p" android:popupCharacters=""/>
-        <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="right"/>
+        <Key android:codes="-5" android:isRepeatable="true" android:keyEdgeFlags="right"/>
     </Row>
 
     <Row>
@@ -26,7 +27,7 @@
         <Key android:codes="k" android:popupCharacters=""/>
         <Key android:codes="u,ú,ü,ű" android:popupCharacters="úüűù"/>
         <Key android:codes="f" android:popupCharacters=""/>
-        <Key android:codes="46,63,33,64" android:keyLabel="." android:popupCharacters="\?!@\u0026_()" android:keyEdgeFlags="right"/>
+        <Key android:codes="46,63,33,64" android:keyLabel="." android:popupCharacters="\?!@\u0026_()" ask:isFunctional="true" android:keyEdgeFlags="right"/>
     </Row>
 
     <Row>
@@ -37,7 +38,7 @@
         <Key android:codes="r" android:popupCharacters=""/>
         <Key android:codes="b" android:popupCharacters=""/>
         <Key android:codes="x" android:popupCharacters=""/>
-        <Key android:codes="44,43,45,47,42" android:keyLabel="," android:popupCharacters=";:+-/*&#34;\'" android:keyEdgeFlags="right"/>
+        <Key android:codes="44,43,45,47,42" android:keyLabel="," android:popupCharacters=";:+-/*&#34;\'" ask:isFunctional="true" android:keyEdgeFlags="right"/>
     </Row>
 
     <!-- Generic bottom row -->
@@ -45,8 +46,8 @@
         <Key android:codes="h" android:popupCharacters="" android:keyEdgeFlags="left"/>
         <Key android:codes="m" android:popupCharacters=""/>
         <Key android:codes="j" android:popupCharacters=""/>
-        <Key android:codes="32" android:keyWidth="25%p" android:isRepeatable="true"/>
-        <Key android:codes="10" android:keyWidth="19%p"/>
-        <Key android:codes="-5" android:isRepeatable="true" android:keyWidth="19%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="32" android:keyWidth="25%p" ask:isFunctional="true" android:isRepeatable="true"/>
+        <Key android:codes="-1" android:isModifier="true" android:keyWidth="19%p" android:isSticky="true"/>
+        <Key android:codes="10" ask:longPressCode="-100" android:keyWidth="19%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>
