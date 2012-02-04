@@ -10,54 +10,45 @@
 	index := the sort index of this keyboard in the Settings page.
 	defaultEnabled := whether the layout is enabled by default 
 	 -->
-    <Keyboard nameResId="@string/hungarian_keyboard_qwertz" 
+    <!-- Tablet keyboards  -->
+    <Keyboard nameResId="@string/hungarian_keyboard_qwertz_tablet" 
               layoutResId="@xml/hu_qwertz" 
               landscapeResId="@xml/hu_qwertz_landscape" 
               physicalKeyboardMappingResId="@xml/hu_physical_qwertz"
               index="1" 
               defaultDictionaryLocale="hu" 
-              description="@string/hungarian_keyboard_qwertz_desc" 
-              id="fffa1534-8de7-4a8e-ae5a-60e8921aeb3b"
+              description="@string/hungarian_keyboard_qwertz_tablet_desc" 
+              id="840c2407-fae1-4423-bd61-b243c1865742"
               defaultEnabled="true" />
               
-    <Keyboard nameResId="@string/hungarian_keyboard_qwertz_all" 
-              layoutResId="@xml/hu_qwertz_all" 
-              landscapeResId="@xml/hu_qwertz_landscape" 
+    <Keyboard nameResId="@string/hungarian_keyboard_qwertz_tablet_split" 
+              layoutResId="@xml/hu_qwertz" 
+              landscapeResId="@xml/hu_qwertz_landscape_split" 
               physicalKeyboardMappingResId="@xml/hu_physical_qwertz"
               index="2" 
               defaultDictionaryLocale="hu" 
-              description="@string/hungarian_keyboard_qwertz_all_desc" 
-              id="ec82ebae-6d73-496c-9f32-f653e35d7b81"
-              defaultEnabled="false" />
-              
-    <Keyboard nameResId="@string/hungarian_keyboard_qwerty" 
+              description="@string/hungarian_keyboard_qwertz_tablet_split_desc" 
+              id="6faa525b-39d8-406b-924f-2e802118f446"
+              defaultEnabled="true" />
+
+    <Keyboard nameResId="@string/hungarian_keyboard_qwerty_tablet" 
               layoutResId="@xml/hu_qwerty" 
               landscapeResId="@xml/hu_qwerty_landscape" 
               physicalKeyboardMappingResId="@xml/hu_physical_qwerty"
               index="3" 
               defaultDictionaryLocale="hu" 
-              description="@string/hungarian_keyboard_qwerty_desc" 
-              id="c074dd9d-6ab1-428d-8b91-aa7064f9a831"
+              description="@string/hungarian_keyboard_qwerty_tablet_desc" 
+              id="c36e383c-d954-4acf-96ad-79fd9ade04af"
               defaultEnabled="false" />
-
-    <Keyboard nameResId="@string/hungarian_keyboard_qwerty_all" 
-              layoutResId="@xml/hu_qwerty_all" 
-              landscapeResId="@xml/hu_qwerty_landscape" 
+              
+    <Keyboard nameResId="@string/hungarian_keyboard_qwerty_tablet_split" 
+              layoutResId="@xml/hu_qwerty" 
+              landscapeResId="@xml/hu_qwerty_landscape_split" 
               physicalKeyboardMappingResId="@xml/hu_physical_qwerty"
               index="4" 
               defaultDictionaryLocale="hu" 
-              description="@string/hungarian_keyboard_qwerty_all_desc" 
-              id="d547d4bb-6a2f-4a7b-ab5f-a45a7a92c05c"
-              defaultEnabled="false" />
-              
-    <Keyboard nameResId="@string/hungarian_keyboard_yesaku" 
-              layoutResId="@xml/hu_yesaku" 
-              landscapeResId="@xml/hu_qwertz_landscape" 
-              physicalKeyboardMappingResId="@xml/hu_physical_qwertz"
-              index="5" 
-              defaultDictionaryLocale="hu" 
-              description="@string/hungarian_keyboard_yesaku_desc" 
-              id="f7246eef-3553-46d8-a579-00c66907aab4"
+              description="@string/hungarian_keyboard_qwerty_tablet_split_desc" 
+              id="89588b6a-b788-468b-893d-b24d7d7fa0b6"
               defaultEnabled="false" />
 
 </Keyboards>

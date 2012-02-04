@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PhysicalTranslation>
-    <SequenceMapping keySequence="KEYCODE_A,KEYCODE_A" targetChar="á" />
-    <SequenceMapping keySequence="KEYCODE_A,KEYCODE_A,KEYCODE_A" targetChar="à" />
-    <SequenceMapping keySequence="KEYCODE_E,KEYCODE_E" targetChar="é" />
-    <SequenceMapping keySequence="KEYCODE_I,KEYCODE_I" targetChar="í" />
-    <SequenceMapping keySequence="KEYCODE_I,KEYCODE_I,KEYCODE_I" targetChar="ì" />
-    <SequenceMapping keySequence="KEYCODE_O,KEYCODE_O" targetChar="ó" />
-    <SequenceMapping keySequence="KEYCODE_O,KEYCODE_O,KEYCODE_O" targetChar="ö" />
-    <SequenceMapping keySequence="KEYCODE_O,KEYCODE_O,KEYCODE_O,KEYCODE_O" targetChar="ő" />
-    <SequenceMapping keySequence="KEYCODE_O,KEYCODE_O,KEYCODE_O,KEYCODE_O,KEYCODE_O" targetChar="ò" />
-    <SequenceMapping keySequence="KEYCODE_U,KEYCODE_U" targetChar="ú" />
-    <SequenceMapping keySequence="KEYCODE_U,KEYCODE_U,KEYCODE_U" targetChar="ü" />
-    <SequenceMapping keySequence="KEYCODE_U,KEYCODE_U,KEYCODE_U,KEYCODE_U" targetChar="ű" />
-    <SequenceMapping keySequence="KEYCODE_U,KEYCODE_U,KEYCODE_U,KEYCODE_U,KEYCODE_U" targetChar="ù" />
-
+    
     <SequenceMapping keySequence="KEYCODE_GRAVE" targetChar="0" />
     <SequenceMapping keySequence="KEYCODE_GRAVE" shiftModifier="true" targetChar="§" />
     <SequenceMapping keySequence="KEYCODE_0" targetChar="ö" />
@@ -87,4 +74,5 @@
     <SequenceMapping keySequence="KEYCODE_B" altModifier="true" targetChar="{" />
     <SequenceMapping keySequence="KEYCODE_N" altModifier="true" targetChar="}" />
     <SequenceMapping keySequence="KEYCODE_M" altModifier="true" targetCharCode="60" />
+    
 </PhysicalTranslation>

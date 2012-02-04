@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PhysicalTranslation>
+    <SequenceMapping keySequence="KEYCODE_A,KEYCODE_A" targetChar="á" />
+    <SequenceMapping keySequence="KEYCODE_A,KEYCODE_A,KEYCODE_A" targetChar="à" />
+    <SequenceMapping keySequence="KEYCODE_E,KEYCODE_E" targetChar="é" />
+    <SequenceMapping keySequence="KEYCODE_I,KEYCODE_I" targetChar="í" />
+    <SequenceMapping keySequence="KEYCODE_I,KEYCODE_I,KEYCODE_I" targetChar="ì" />
+    <SequenceMapping keySequence="KEYCODE_O,KEYCODE_O" targetChar="ó" />
+    <SequenceMapping keySequence="KEYCODE_O,KEYCODE_O,KEYCODE_O" targetChar="ö" />
+    <SequenceMapping keySequence="KEYCODE_O,KEYCODE_O,KEYCODE_O,KEYCODE_O" targetChar="ő" />
+    <SequenceMapping keySequence="KEYCODE_O,KEYCODE_O,KEYCODE_O,KEYCODE_O,KEYCODE_O" targetChar="ò" />
+    <SequenceMapping keySequence="KEYCODE_U,KEYCODE_U" targetChar="ú" />
+    <SequenceMapping keySequence="KEYCODE_U,KEYCODE_U,KEYCODE_U" targetChar="ü" />
+    <SequenceMapping keySequence="KEYCODE_U,KEYCODE_U,KEYCODE_U,KEYCODE_U" targetChar="ű" />
+    <SequenceMapping keySequence="KEYCODE_U,KEYCODE_U,KEYCODE_U,KEYCODE_U,KEYCODE_U" targetChar="ù" />
+
+    <SequenceMapping keySequence="KEYCODE_Z" targetChar="y" />
+    <SequenceMapping keySequence="KEYCODE_Y" targetChar="z" />
+    <SequenceMapping keySequence="KEYCODE_Z" shiftModifier="true" targetChar="Y" />
+    <SequenceMapping keySequence="KEYCODE_Y" shiftModifier="true" targetChar="Z" />
+</PhysicalTranslation>

@@ -15,9 +15,18 @@
     <string name="hungarian_keyboard_qwertz_all">Magyar (qwertz, 4 soros)</string>
     <string name="hungarian_keyboard_qwertz_all_desc">Minden ékezetes karakter 4 sorban</string>
 
-    <string name="hungarian_keyboard_qwertz_tablet">Magyar (qwertz - tablet)</string>
-    <string name="hungarian_keyboard_qwertz_tablet_desc">Nagyobb tablet képrnyőre optimalizált billentyűzet</string>
-
     <string name="hungarian_keyboard_yesaku">Magyar - YESAKU (kísérleti)</string>
-    <string name="hungarian_keyboard_yesaku_desc">Minimalizálja az ujj mozgását (by EclipSim)</string>
+    <string name="hungarian_keyboard_yesaku_desc">Minimalizálja az ujj mozgását (EclipSim)</string>
+    
+    <string name="hungarian_keyboard_qwertz_tablet">Magyar</string>
+    <string name="hungarian_keyboard_qwertz_tablet_desc">Tablet képrnyőre optimalizált billentyűzet</string>
+
+    <string name="hungarian_keyboard_qwertz_tablet_split">Magyar (osztott)</string>
+    <string name="hungarian_keyboard_qwertz_tablet_split_desc">Két ujjas osztott billentyűzet fekvő üzemmódban</string>
+
+    <string name="hungarian_keyboard_qwerty_tablet">Magyar (qwerty)</string>
+    <string name="hungarian_keyboard_qwerty_tablet_desc">Tablet képrnyőre optimalizált billentyűzet</string>
+
+    <string name="hungarian_keyboard_qwerty_tablet_split">Magyar (qwerty, osztott)</string>
+    <string name="hungarian_keyboard_qwerty_tablet_split_desc">Két ujjas osztott billentyűzet fekvő üzemmódban</string>
 </resources>
