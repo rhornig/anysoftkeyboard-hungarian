@@ -2,19 +2,19 @@
 <PhysicalTranslation>
     <SequenceMapping keySequence="KEYCODE_A,KEYCODE_A" targetChar="á" />
     <SequenceMapping keySequence="KEYCODE_A,KEYCODE_A,KEYCODE_A" targetChar="à" />
-	<SequenceMapping keySequence="KEYCODE_E,KEYCODE_E" targetChar="é" />
+    <SequenceMapping keySequence="KEYCODE_E,KEYCODE_E" targetChar="é" />
     <SequenceMapping keySequence="KEYCODE_I,KEYCODE_I" targetChar="í" />
     <SequenceMapping keySequence="KEYCODE_I,KEYCODE_I,KEYCODE_I" targetChar="ì" />
-	<SequenceMapping keySequence="KEYCODE_O,KEYCODE_O" targetChar="ó" />
-	<SequenceMapping keySequence="KEYCODE_O,KEYCODE_O,KEYCODE_O" targetChar="ö" />
+    <SequenceMapping keySequence="KEYCODE_O,KEYCODE_O" targetChar="ó" />
+    <SequenceMapping keySequence="KEYCODE_O,KEYCODE_O,KEYCODE_O" targetChar="ö" />
     <SequenceMapping keySequence="KEYCODE_O,KEYCODE_O,KEYCODE_O,KEYCODE_O" targetChar="ő" />
     <SequenceMapping keySequence="KEYCODE_O,KEYCODE_O,KEYCODE_O,KEYCODE_O,KEYCODE_O" targetChar="ò" />
-	<SequenceMapping keySequence="KEYCODE_U,KEYCODE_U" targetChar="ú" />
-	<SequenceMapping keySequence="KEYCODE_U,KEYCODE_U,KEYCODE_U" targetChar="ü" />
+    <SequenceMapping keySequence="KEYCODE_U,KEYCODE_U" targetChar="ú" />
+    <SequenceMapping keySequence="KEYCODE_U,KEYCODE_U,KEYCODE_U" targetChar="ü" />
     <SequenceMapping keySequence="KEYCODE_U,KEYCODE_U,KEYCODE_U,KEYCODE_U" targetChar="ű" />
     <SequenceMapping keySequence="KEYCODE_U,KEYCODE_U,KEYCODE_U,KEYCODE_U,KEYCODE_U" targetChar="ù" />
 
-	<SequenceMapping keySequence="KEYCODE_Z" targetChar="y" />
+    <SequenceMapping keySequence="KEYCODE_Z" targetChar="y" />
     <SequenceMapping keySequence="KEYCODE_Y" targetChar="z" />
     <SequenceMapping keySequence="KEYCODE_Z" shiftModifier="true" targetChar="Y" />
     <SequenceMapping keySequence="KEYCODE_Y" shiftModifier="true" targetChar="Z" />
@@ -39,8 +39,13 @@
     <SequenceMapping keySequence="KEYCODE_BACKSLASH" shiftModifier="true" targetChar="Ű" />
     <SequenceMapping keySequence="211" targetChar="í" />
     <SequenceMapping keySequence="211" shiftModifier="true" targetChar="Í" />
+    <SequenceMapping keySequence="211" altModifier="true" targetCharCode="60" /> <!-- left to the Y key (less)-->
+    <SequenceMapping keySequence="0" targetChar="í" /> <!-- HACK: android 3.2 returns the key between Y and SHIFT as unknown -->
+    <SequenceMapping keySequence="0" shiftModifier="true" targetChar="Í" /> <!-- we assign í to all unknown keys !!! -->
+    <SequenceMapping keySequence="0" altModifier="true" targetCharCode="60" /> <!-- left to the Y key (less)-->
 
     <SequenceMapping keySequence="KEYCODE_1" shiftModifier="true" targetChar="'" />
+    <SequenceMapping keySequence="KEYCODE_1" altModifier="true" targetChar="~" />
     <SequenceMapping keySequence="KEYCODE_2" shiftModifier="true" targetCharCode="34" />
     <SequenceMapping keySequence="KEYCODE_3" shiftModifier="true" targetChar="+" />
     <SequenceMapping keySequence="KEYCODE_4" shiftModifier="true" targetChar="!" />
@@ -80,7 +85,6 @@
     <SequenceMapping keySequence="KEYCODE_SEMICOLON" altModifier="true" targetChar="$" />
     <SequenceMapping keySequence="KEYCODE_APOSTROPHE" altModifier="true" targetChar="ß" />
     <SequenceMapping keySequence="KEYCODE_BACKSLASH" altModifier="true" targetChar="¤" />
-    <SequenceMapping keySequence="211" altModifier="true" targetCharCode="60" />
     <SequenceMapping keySequence="KEYCODE_Z" altModifier="true" targetCharCode="62" />
     <SequenceMapping keySequence="KEYCODE_X" altModifier="true" targetCharCode="35" />
     <SequenceMapping keySequence="KEYCODE_C" altModifier="true" targetCharCode="38" />
@@ -88,4 +92,5 @@
     <SequenceMapping keySequence="KEYCODE_B" altModifier="true" targetChar="{" />
     <SequenceMapping keySequence="KEYCODE_N" altModifier="true" targetChar="}" />
     <SequenceMapping keySequence="KEYCODE_M" altModifier="true" targetCharCode="60" />
+    
 </PhysicalTranslation>
