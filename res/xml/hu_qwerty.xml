@@ -23,8 +23,8 @@
 
     <Row>
         <Key android:codes="a" android:popupCharacters="áà" android:keyLabel="" android:keyEdgeFlags="left"/>
-        <Key android:codes="s" android:popupCharacters="*" android:keyLabel=""/>
-        <Key android:codes="d" android:popupCharacters="/" android:keyLabel=""/>
+        <Key android:codes="s" android:popupCharacters="*•" android:keyLabel=""/>
+        <Key android:codes="d" android:popupCharacters="/%" android:keyLabel=""/>
         <Key android:codes="f" android:popupCharacters="4" android:keyLabel=""/>
         <Key android:codes="g" android:popupCharacters="5" android:keyLabel=""/>
         <Key android:codes="h" android:popupCharacters="6" android:keyLabel=""/>

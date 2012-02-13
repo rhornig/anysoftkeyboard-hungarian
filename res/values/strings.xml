@@ -18,15 +18,15 @@
     <string name="hungarian_keyboard_yesaku">Hungarian - YESAKU (experimental)</string>
     <string name="hungarian_keyboard_yesaku_desc">Minimizes finger travel (by EclipSim)</string>
     
-    <string name="hungarian_keyboard_qwertz_tablet">Hungarian</string>
+    <string name="hungarian_keyboard_qwertz_tablet">Hungarian (tablet)</string>
     <string name="hungarian_keyboard_qwertz_tablet_desc">Hungarian layout optimized for tablets</string>
     
-    <string name="hungarian_keyboard_qwertz_tablet_split">Hungarian (split)</string>
-    <string name="hungarian_keyboard_qwertz_tablet_split_desc">Hungarian layout optimized for thumb typing in landscape</string>
+    <string name="hungarian_keyboard_qwertz_tablet_split">Hungarian (tablet/split)</string>
+    <string name="hungarian_keyboard_qwertz_tablet_split_desc">Hungarian layout optimized for tablet thumb typing in landscape</string>
     
-    <string name="hungarian_keyboard_qwerty_tablet">Hungarian (qwerty)</string>
+    <string name="hungarian_keyboard_qwerty_tablet">Hungarian (tablet/qwerty)</string>
     <string name="hungarian_keyboard_qwerty_tablet_desc">Hungarian layout optimized for tablets</string>
     
-    <string name="hungarian_keyboard_qwerty_tablet_split">Hungarian (qwerty/split)</string>
-    <string name="hungarian_keyboard_qwerty_tablet_split_desc">Hungarian layout optimized for thumb typing in landscape</string>
+    <string name="hungarian_keyboard_qwerty_tablet_split">Hungarian (tablet/split/qwerty)</string>
+    <string name="hungarian_keyboard_qwerty_tablet_split_desc">Hungarian layout optimized for tablet thumb typing in landscape</string>
 </resources>

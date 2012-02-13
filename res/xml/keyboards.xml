@@ -60,4 +60,44 @@
               id="f7246eef-3553-46d8-a579-00c66907aab4"
               defaultEnabled="false" />
 
+    <!-- Tablet keyboards  -->
+    <Keyboard nameResId="@string/hungarian_keyboard_qwertz_tablet" 
+              layoutResId="@xml/hu_tablet_qwertz" 
+              landscapeResId="@xml/hu_qwertz_landscape" 
+              physicalKeyboardMappingResId="@xml/hu_tablet_physical_qwertz"
+              index="6" 
+              defaultDictionaryLocale="hu" 
+              description="@string/hungarian_keyboard_qwertz_tablet_desc" 
+              id="840c2407-fae1-4423-bd61-b243c1865742"
+              defaultEnabled="false" />
+              
+    <Keyboard nameResId="@string/hungarian_keyboard_qwertz_tablet_split" 
+              layoutResId="@xml/hu_tablet_qwertz" 
+              landscapeResId="@xml/hu_tablet_qwertz_landscape_split" 
+              physicalKeyboardMappingResId="@xml/hu_tablet_physical_qwertz"
+              index="7" 
+              defaultDictionaryLocale="hu" 
+              description="@string/hungarian_keyboard_qwertz_tablet_split_desc" 
+              id="6faa525b-39d8-406b-924f-2e802118f446"
+              defaultEnabled="false" />
+
+    <Keyboard nameResId="@string/hungarian_keyboard_qwerty_tablet" 
+              layoutResId="@xml/hu_tablet_qwerty" 
+              landscapeResId="@xml/hu_qwerty_landscape" 
+              physicalKeyboardMappingResId="@xml/hu_tablet_physical_qwerty"
+              index="8" 
+              defaultDictionaryLocale="hu" 
+              description="@string/hungarian_keyboard_qwerty_tablet_desc" 
+              id="c36e383c-d954-4acf-96ad-79fd9ade04af"
+              defaultEnabled="false" />
+              
+    <Keyboard nameResId="@string/hungarian_keyboard_qwerty_tablet_split" 
+              layoutResId="@xml/hu_tablet_qwerty" 
+              landscapeResId="@xml/hu_tablet_qwerty_landscape_split" 
+              physicalKeyboardMappingResId="@xml/hu_tablet_physical_qwerty"
+              index="9" 
+              defaultDictionaryLocale="hu" 
+              description="@string/hungarian_keyboard_qwerty_tablet_split_desc" 
+              id="89588b6a-b788-468b-893d-b24d7d7fa0b6"
+              defaultEnabled="false" />
 </Keyboards>

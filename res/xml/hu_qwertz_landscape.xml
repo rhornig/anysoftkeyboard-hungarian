@@ -19,7 +19,7 @@
         <Key android:codes="i" android:popupCharacters="7"/>
         <Key android:codes="o" android:popupCharacters="8"/>
         <Key android:codes="p" android:popupCharacters="9"/>
-        <Key android:codes="ő" android:popupCharacters=""/>
+        <Key android:codes="ő" android:popupCharacters="•\u2026"/>
         <Key android:codes="ú" android:popupCharacters="ù" android:keyEdgeFlags="right"/>
     </Row>
 
@@ -31,71 +31,38 @@
         <Key android:codes="g" android:popupCharacters="]"/>
         <Key android:codes="h" android:popupCharacters="("/>
         <Key android:codes="j" android:popupCharacters=")"/>
-        <Key android:codes="k" android:popupCharacters="/"/>
-        <Key android:codes="l" android:popupCharacters="*"/>
+        <Key android:codes="k" android:popupCharacters="%"/>
+        <Key android:codes="l" android:popupCharacters="&amp;#"/>
         <Key android:codes="é" android:popupCharacters="€$"/>
         <Key android:codes="á" android:popupCharacters="à"/>
         <Key android:codes="ű" android:popupCharacters="\\|" android:keyEdgeFlags="right"/>
     </Row>
 
     <Row>
-        <Key android:codes="y" android:popupCharacters="" android:keyEdgeFlags="left"/>
-        <Key android:codes="x" android:popupCharacters="#"/>
-        <Key android:codes="c" android:popupCharacters="&amp;"/>
+        <Key android:codes="y" android:popupCharacters="=" android:keyEdgeFlags="left"/>
+        <Key android:codes="x" android:popupCharacters="*"/>
+        <Key android:codes="c" android:popupCharacters="/"/>
         <Key android:codes="v" android:popupCharacters="\@"/>
         <Key android:codes="b" android:popupCharacters="{"/>
         <Key android:codes="n" android:popupCharacters="}"/>
         <Key android:codes="m" android:popupCharacters="&lt;"/>
         <Key android:codes="ö" android:popupCharacters="&gt;"/>
-        <Key android:codes="ü" android:popupCharacters="="/>
+        <Key android:codes="ü" android:popupCharacters="_"/>
         <Key android:codes="ó" android:popupCharacters="ò"/>
         <Key android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyWidth="16.7%p"/>
     </Row>
 
     <!-- Generic bottom row -->
-    <Row android:keyboardMode="@integer/keyboard_mode_normal" android:rowEdgeFlags="bottom">
+    <Row android:rowEdgeFlags="bottom">
         <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
         <Key android:codes="í" android:popupCharacters="ì"/>
-        <Key android:codes="-10" ask:isFunctional="true"/>
-        <Key android:codes="63" ask:isFunctional="true" android:keyLabel="\?" android:popupCharacters="!/@\u0026\u00bf\u00a1"/>
-        <Key android:codes="44" ask:isFunctional="true" android:keyLabel="," android:popupCharacters="()"/>
+        <Key android:codes="-10" ask:isFunctional="true" />
+        <Key android:codes="63" ask:isFunctional="true" android:popupCharacters="-"/>
+        <Key android:codes="44" ask:isFunctional="true" android:popupCharacters=";"/>
         <Key android:codes="32" ask:isFunctional="true" android:keyWidth="25.1%p"/>
-        <Key android:codes="46" ask:isFunctional="true" android:keyLabel="." android:popupCharacters=";:-_\u00b7\u2026"/>
-        <Key android:codes="39" ask:isFunctional="true" android:keyLabel="\'" android:popupCharacters="&#34;\u201e\u201d"/>
+        <Key android:codes="46" ask:isFunctional="true" android:popupCharacters=":"/>
+        <Key android:codes="!" ask:isFunctional="true" android:popupCharacters="&#34;\'"/>
         <Key android:codes="10" ask:longPressCode="-100" android:keyWidth="16.6666%p" android:keyEdgeFlags="right"/>
     </Row>
     
-    <Row android:keyboardMode="@integer/keyboard_mode_im" android:rowEdgeFlags="bottom">
-        <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
-        <Key android:codes="í" android:popupCharacters="ì"/>
-        <Key android:codes="-10" ask:isFunctional="true"/>
-        <Key android:codes="63" ask:isFunctional="true" android:keyLabel="\?" android:popupCharacters="!/@\u0026\u00bf\u00a1"/>
-        <Key android:codes="44" ask:isFunctional="true" android:keyLabel="," android:popupCharacters="()"/>
-        <Key android:codes="32" ask:isFunctional="true" android:keyWidth="25.1%p"/>
-        <Key android:codes="46" ask:isFunctional="true" android:keyLabel="." android:popupCharacters=";:-_\u00b7\u2026"/>
-        <Key android:codes="39" ask:isFunctional="true" android:keyLabel="\'" android:popupCharacters="&#34;\u201e\u201d"/>
-        <Key android:codes="10" ask:longPressCode="-100" android:keyWidth="16.6666%p" android:keyEdgeFlags="right"/>
-    </Row>
-    
-    <Row android:keyboardMode="@integer/keyboard_mode_url" android:rowEdgeFlags="bottom">
-        <Key android:keyWidth="16.6666%p" android:codes="-9" android:keyEdgeFlags="left"/>
-        <Key android:codes="í" android:popupCharacters="ì"/>
-        <Key android:codes="63" ask:isFunctional="true" android:keyLabel="\?" android:popupCharacters="!/@\u0026\u00bf\u00a1"/>
-        <Key android:codes="58" ask:isFunctional="true" android:keyLabel=":"/>
-        <Key android:codes="32" ask:isFunctional="true" android:keyWidth="25.1%p"/>
-        <Key android:codes="46" ask:isFunctional="true" android:keyLabel="." android:popupCharacters=",-_"/>
-        <Key android:codes="47" ask:isFunctional="true" android:keyLabel="/"/>
-        <Key android:codes="10" ask:longPressCode="-100" android:keyWidth="16.6666%p" android:keyEdgeFlags="right"/>
-    </Row>
-    
-    <Row android:keyboardMode="@integer/keyboard_mode_email" android:rowEdgeFlags="bottom">
-        <Key android:keyWidth="16.6666%p" android:codes="-9" android:keyEdgeFlags="left"/>
-        <Key android:codes="í" android:popupCharacters="ì"/>
-        <Key android:codes="64" ask:isFunctional="true" android:keyLabel="\@"/>
-        <Key android:codes="95" ask:isFunctional="true" android:keyLabel="_"/>
-        <Key android:codes="32" ask:isFunctional="true" android:keyWidth="25.1%p"/>
-        <Key android:codes="46" ask:isFunctional="true" android:keyLabel="." android:popupCharacters=",()'-_"/>
-        <Key android:codes="45" ask:isFunctional="true" android:keyLabel="-"/>
-        <Key android:codes="10" ask:longPressCode="-100" android:keyWidth="16.6666%p" android:keyEdgeFlags="right"/>
-    </Row>
 </Keyboard>

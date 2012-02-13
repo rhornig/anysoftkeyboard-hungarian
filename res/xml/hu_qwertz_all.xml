@@ -35,8 +35,8 @@
 
     <Row>
         <Key android:codes="97" android:keyLabel="a" android:popupCharacters="áà" android:horizontalGap="5%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="115" android:keyLabel="s" android:popupCharacters="*"/>
-        <Key android:codes="100" android:keyLabel="d" android:popupCharacters="/"/>
+        <Key android:codes="115" android:keyLabel="s" android:popupCharacters="*•"/>
+        <Key android:codes="100" android:keyLabel="d" android:popupCharacters="/%"/>
         <Key android:codes="102" android:keyLabel="f" android:popupCharacters="4"/>
         <Key android:codes="103" android:keyLabel="g" android:popupCharacters="5"/>
         <Key android:codes="104" android:keyLabel="h" android:popupCharacters="6"/>

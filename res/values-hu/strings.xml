@@ -18,15 +18,15 @@
     <string name="hungarian_keyboard_yesaku">Magyar - YESAKU (kísérleti)</string>
     <string name="hungarian_keyboard_yesaku_desc">Minimalizálja az ujj mozgását (EclipSim)</string>
     
-    <string name="hungarian_keyboard_qwertz_tablet">Magyar</string>
+    <string name="hungarian_keyboard_qwertz_tablet">Magyar (tablet)</string>
     <string name="hungarian_keyboard_qwertz_tablet_desc">Tablet képrnyőre optimalizált billentyűzet</string>
 
-    <string name="hungarian_keyboard_qwertz_tablet_split">Magyar (osztott)</string>
-    <string name="hungarian_keyboard_qwertz_tablet_split_desc">Két ujjas osztott billentyűzet fekvő üzemmódban</string>
+    <string name="hungarian_keyboard_qwertz_tablet_split">Magyar (tablet/osztott)</string>
+    <string name="hungarian_keyboard_qwertz_tablet_split_desc">Két ujjas osztott tablet billentyűzet fekvő üzemmódban</string>
 
-    <string name="hungarian_keyboard_qwerty_tablet">Magyar (qwerty)</string>
+    <string name="hungarian_keyboard_qwerty_tablet">Magyar (tablet/qwerty)</string>
     <string name="hungarian_keyboard_qwerty_tablet_desc">Tablet képrnyőre optimalizált billentyűzet</string>
 
-    <string name="hungarian_keyboard_qwerty_tablet_split">Magyar (qwerty, osztott)</string>
-    <string name="hungarian_keyboard_qwerty_tablet_split_desc">Két ujjas osztott billentyűzet fekvő üzemmódban</string>
+    <string name="hungarian_keyboard_qwerty_tablet_split">Magyar (tablet/osztott/qwerty)</string>
+    <string name="hungarian_keyboard_qwerty_tablet_split_desc">Két ujjas osztott tablet billentyűzet fekvő üzemmódban</string>
 </resources>
