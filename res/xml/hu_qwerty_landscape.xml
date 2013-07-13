@@ -59,7 +59,7 @@
         <Key android:codes="-10" ask:isFunctional="true" />
         <Key android:codes="63" ask:isFunctional="true" android:popupCharacters="-"/>
         <Key android:codes="44" ask:isFunctional="true" android:popupCharacters=";"/>
-        <Key android:codes="32" ask:isFunctional="true" android:keyWidth="25.1%p"/>
+        <Key android:codes="32" ask:longPressCode="-4" ask:isFunctional="true" android:keyWidth="25.1%p"/>
         <Key android:codes="46" ask:isFunctional="true" android:popupCharacters=":"/>
         <Key android:codes="!" ask:isFunctional="true" android:popupCharacters="&#34;\'"/>
         <Key android:codes="10" ask:longPressCode="-100" android:keyWidth="16.6666%p" android:keyEdgeFlags="right"/>

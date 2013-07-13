@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="com.anysoftkeyboard.languagepack.hungarian"
-      android:versionName="20120213" android:versionCode="14">
+      android:versionName="20130712" android:versionCode="15">
     <supports-screens android:anyDensity="true" android:normalScreens="true" android:smallScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:resizeable="true"></supports-screens>
-    <application android:icon="@drawable/app_icon" android:label="@string/app_name">
+    <application android:icon="@drawable/ic_launcher" android:label="@string/app_name">
         <receiver android:exported="true" android:name=".KeyboardBroadcastReceiver">
             <intent-filter> 
                 <action android:name="com.menny.android.anysoftkeyboard.KEYBOARD" />
@@ -21,7 +21,5 @@
             <meta-data android:name="com.menny.android.anysoftkeyboard.dictionaries" android:resource="@xml/dictionaries" />
        </receiver>
     </application>
-    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="15"></uses-sdk>
-          
-          <!-- http://d.android.com/guide/practices/screens_support.html read about legacy. -->
+    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="17"></uses-sdk>
 </manifest>
