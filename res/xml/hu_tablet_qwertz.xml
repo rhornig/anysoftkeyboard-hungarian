@@ -30,7 +30,7 @@
         <Key android:codes="z" android:popupCharacters="" android:keyLabel=""/>
         <Key android:codes="u,ú,ù" android:popupCharacters="úù" android:keyLabel=""/>
         <Key android:codes="i,í,ì" android:popupCharacters="íì" android:keyLabel=""/>
-        <Key android:codes="o,ó,ò" android:popupCharacters="òó" android:keyLabel=""/>
+        <Key android:codes="o,ó,ò" android:popupCharacters="óò" android:keyLabel=""/>
         <Key android:codes="p" android:popupCharacters="" android:keyLabel="" android:keyEdgeFlags="right"/>
     </Row>
 
