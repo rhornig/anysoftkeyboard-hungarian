@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ask="http://schemas.android.com/apk/res/com.anysoftkeyboard.languagepack.hungarian"
+    xmlns:ask="http://schemas.android.com/apk/res-auto"
     android:keyWidth="10%p"
     android:horizontalGap="0px"
     android:verticalGap="0px"
@@ -14,7 +14,7 @@
         <Key android:codes="e" android:popupCharacters="é€" android:keyLabel=""/>
         <Key android:codes="r" android:popupCharacters="1" android:keyLabel=""/>
         <Key android:codes="t" android:popupCharacters="2" android:keyLabel=""/>
-        <Key android:codes="y" android:popupCharacters="3" android:keyLabel=""/>
+        <Key android:codes="z" android:popupCharacters="3" android:keyLabel=""/>
         <Key android:codes="u,ú,ù" android:popupCharacters="úüűù" android:keyLabel=""/>
         <Key android:codes="i,í,ì" android:popupCharacters="íì" android:keyLabel=""/>
         <Key android:codes="o,ó,ò" android:popupCharacters="óöőò" android:keyLabel=""/>
@@ -35,7 +35,7 @@
     </Row>
 
     <Row>
-        <Key android:codes="z" android:popupCharacters="=" android:keyLabel="" android:keyEdgeFlags="left"/>
+        <Key android:codes="y" android:popupCharacters="=" android:keyLabel="" android:keyEdgeFlags="left"/>
         <Key android:codes="x" android:popupCharacters="!$" android:keyLabel=""/>
         <Key android:codes="c" android:popupCharacters="\@&amp;" android:keyLabel=""/>
         <Key android:codes="v" android:popupCharacters="7" android:keyLabel=""/>

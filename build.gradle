@@ -1,0 +1,92 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.1'
+
+        classpath 'com.github.AnySoftKeyboard.AnySoftKeyboardTools:makedictionary:e0929d04f944eae0154c47e834e42f7dcbcb837c'
+        classpath 'com.github.AnySoftKeyboard.AnySoftKeyboardTools:generatewordslist:e0929d04f944eae0154c47e834e42f7dcbcb837c'
+        //classpath files('english_dictionary/generatewordslist-1.0-SNAPSHOT.jar')
+        classpath 'org.jsoup:jsoup:1.9.1'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "24.0.3"
+
+    defaultConfig {
+        applicationId "com.anysoftkeyboard.languagepack.hungarian"
+        minSdkVersion 7
+        targetSdkVersion 23
+        versionCode 17
+        versionName "20161018"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("key.store")
+            storePassword System.getenv("PACK_KEYSTORE_PASSWORD")
+            keyAlias System.getenv("PACK_KEYSTORE_ALIAS")
+            keyPassword System.getenv("PACK_KEYSTORE_KEY_PASSWORD")
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            zipAlignEnabled true
+            debuggable false
+
+            minifyEnabled false
+        }
+    }
+}
+
+task parseExampleTextFile(type: com.anysoftkeyboard.tools.generatewordslist.GenerateWordsListTask) {
+    inputFile new File(project.getProjectDir(), "dictionary/example_text_file.txt")
+    outputWordsListFile new File(project.getProjectDir(), "dictionary/example_text_file.xml")
+}
+
+task parseExampleTextFile2(type: com.anysoftkeyboard.tools.generatewordslist.GenerateWordsListTask) {
+    inputFile new File(project.getProjectDir(), "dictionary/example_text_file2.txt")
+    outputWordsListFile new File(project.getProjectDir(), "dictionary/example_text_file2.xml")
+}
+
+task mergeAllWordLists(type: com.anysoftkeyboard.tools.generatewordslist.MergeWordsListTask) {
+    dependsOn parseExampleTextFile
+    dependsOn parseExampleTextFile2
+
+    inputWordsListFiles = [
+            new File(project.getProjectDir(), "dictionary/example_text_file.xml"),
+            new File(project.getProjectDir(), "dictionary/example_text_file2.xml")
+    ] as File[]
+    outputWordsListFile new File(project.getProjectDir(), "dictionary/words_merged.xml")
+    maxWordsInList 100000
+}
+
+task makeDictionary(type: com.anysoftkeyboard.tools.makedictionary.MakeDictionaryTask) {
+    dependsOn mergeAllWordLists
+    inputWordsListFile new File(project.getProjectDir(), "dictionary/words_merged.xml")
+}
+
+afterEvaluate { proj ->
+    proj.tasks.all { task ->
+        if (task.name.startsWith('generate') && task.name.endsWith('BuildConfig')) {
+            // dixtionary is pre-generated so no need to build it
+            // task.dependsOn makeDictionary
+        }
+    }
+}
+
+dependencies {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+    compile 'com.github.AnySoftKeyboard:AnySoftKeyboard-API:1.5.1'
+}

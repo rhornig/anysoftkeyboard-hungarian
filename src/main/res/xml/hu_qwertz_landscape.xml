@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ask="http://schemas.android.com/apk/res/com.anysoftkeyboard.languagepack.hungarian"
+    xmlns:ask="http://schemas.android.com/apk/res-auto"
     android:keyWidth="8.3333%p"
     android:horizontalGap="0px"
     android:verticalGap="0px"
@@ -14,7 +14,7 @@
         <Key android:codes="e" android:popupCharacters="2"/>
         <Key android:codes="r" android:popupCharacters="3"/>
         <Key android:codes="t" android:popupCharacters="4"/>
-        <Key android:codes="y" android:popupCharacters="5"/>
+        <Key android:codes="z" android:popupCharacters="5"/>
         <Key android:codes="u" android:popupCharacters="6"/>
         <Key android:codes="i" android:popupCharacters="7"/>
         <Key android:codes="o" android:popupCharacters="8"/>
@@ -39,7 +39,7 @@
     </Row>
 
     <Row>
-        <Key android:codes="z" android:popupCharacters="=" android:keyEdgeFlags="left"/>
+        <Key android:codes="y" android:popupCharacters="=" android:keyEdgeFlags="left"/>
         <Key android:codes="x" android:popupCharacters="*"/>
         <Key android:codes="c" android:popupCharacters="/"/>
         <Key android:codes="v" android:popupCharacters="\@"/>
