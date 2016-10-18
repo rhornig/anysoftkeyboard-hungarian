@@ -47,7 +47,7 @@
 
     <Row>
         <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
-        <Key android:codes="122" android:keyLabel="z" android:popupCharacters="="/>
+        <Key android:codes="122" android:keyLabel="z" android:popupCharacters="=§"/>
         <Key android:codes="120" android:keyLabel="x" android:popupCharacters="!$"/>
         <Key android:codes="99" android:keyLabel="c" android:popupCharacters="\@&amp;"/>
         <Key android:codes="118" android:keyLabel="v" android:popupCharacters="7"/>

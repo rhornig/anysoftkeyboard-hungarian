@@ -39,7 +39,7 @@
     </Row>
 
     <Row>
-        <Key android:codes="z" android:popupCharacters="=" android:keyEdgeFlags="left"/>
+        <Key android:codes="z" android:popupCharacters="=§" android:keyEdgeFlags="left"/>
         <Key android:codes="x" android:popupCharacters="*"/>
         <Key android:codes="c" android:popupCharacters="/"/>
         <Key android:codes="v" android:popupCharacters="\@"/>
