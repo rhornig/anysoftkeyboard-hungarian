@@ -16,23 +16,25 @@ buildscript {
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 24
     buildToolsVersion "24.0.3"
 
     defaultConfig {
         applicationId "com.anysoftkeyboard.languagepack.hungarian"
         minSdkVersion 7
-        targetSdkVersion 23
+        targetSdkVersion 24
         versionCode 17
         versionName "20161018"
     }
 
     signingConfigs {
         release {
-            storeFile file("key.store")
-            storePassword System.getenv("PACK_KEYSTORE_PASSWORD")
-            keyAlias System.getenv("PACK_KEYSTORE_ALIAS")
-            keyPassword System.getenv("PACK_KEYSTORE_KEY_PASSWORD")
+            Properties prop = new Properties()
+            prop.load(project.rootProject.file('local.properties').newDataInputStream())
+            storeFile file(prop.getProperty('key.store'))
+            keyAlias prop.getProperty('key.alias')
+            storePassword prop.getProperty('key.password')
+            keyPassword prop.getProperty('key.password')
         }
     }
 
