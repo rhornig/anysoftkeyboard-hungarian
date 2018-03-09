@@ -15,6 +15,18 @@
     <string name="hungarian_keyboard_qwertz_all">Hungarian (qwertz) full</string>
     <string name="hungarian_keyboard_qwertz_all_desc">All accented chars arranged in 4 rows</string>
 
+    <string name="hungarian_keyboard_qwertz_swype">Hun (qwertz+áéöü)</string>
+    <string name="hungarian_keyboard_qwertz_swype_desc">Accented chars in 3 rows plus clipboard buttons</string>
+
+    <string name="hungarian_keyboard_qwertz_swype_repeat">Hun (qwertz+iíöőüű)</string>
+    <string name="hungarian_keyboard_qwertz_swype_repeat_desc">Accented chars in 3 rows plus clipboard buttons repeated keypress to accented chars</string>
+
+    <string name="hungarian_keyboard_qwerty_swype">Hun (qwerty+áéöü)</string>
+    <string name="hungarian_keyboard_qwerty_swype_desc">Accented chars in 3 rows plus clipboard buttons</string>
+
+    <string name="hungarian_keyboard_qwerty_swype_repeat">Hun (qwerty+iíöőüű)</string>
+    <string name="hungarian_keyboard_qwerty_swype_repeat_desc">Accented chars in 3 rows plus clipboard buttons repeated keypress to accented chars</string>
+
     <string name="hungarian_keyboard_yesaku">Hungarian - YESAKU (experimental)</string>
     <string name="hungarian_keyboard_yesaku_desc">Minimizes finger travel (by EclipSim)</string>
     
@@ -29,4 +41,9 @@
     
     <string name="hungarian_keyboard_qwerty_tablet_split">Hungarian (tablet/split/qwerty)</string>
     <string name="hungarian_keyboard_qwerty_tablet_split_desc">Hungarian layout optimized for tablet thumb typing in landscape</string>
+
+    <string name="hungarian_keyboard_copy">Copy</string>
+    <string name="hungarian_keyboard_cut">Cut</string>
+    <string name="hungarian_keyboard_paste">Paste</string>
+    <string name="hungarian_keyboard_selectall">Select All</string>
 </resources>
