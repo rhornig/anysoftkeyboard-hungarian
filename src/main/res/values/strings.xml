@@ -6,11 +6,17 @@
     <string name="hungarian_keyboard_qwerty">Hungarian (qwerty)</string>
     <string name="hungarian_keyboard_qwerty_desc">Accented chars in 3 rows with Y in the top row</string>
 
+    <string name="hungarian_keyboard_qwerty_repeat">Hungarian (qwerty/repeat)</string>
+    <string name="hungarian_keyboard_qwerty_repeat_desc">Accented chars in 3 rows with Y in the top row repeated keypress to accented chars</string>
+
     <string name="hungarian_keyboard_qwerty_all">Hungarian (qwerty) full</string>
     <string name="hungarian_keyboard_qwerty_all_desc">All accented chars arranged in 4 rows with Y in the top row</string>
 
     <string name="hungarian_keyboard_qwertz">Hungarian (qwertz)</string>
     <string name="hungarian_keyboard_qwertz_desc">Accented chars in 3 rows</string>
+
+    <string name="hungarian_keyboard_qwertz_repeat">Hungarian (qwertz/repeat)</string>
+    <string name="hungarian_keyboard_qwertz_repeat_desc">Accented chars in 3 rows repeated keypress to accented chars</string>
 
     <string name="hungarian_keyboard_qwertz_all">Hungarian (qwertz) full</string>
     <string name="hungarian_keyboard_qwertz_all_desc">All accented chars arranged in 4 rows</string>
