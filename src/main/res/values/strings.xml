@@ -21,16 +21,16 @@
     <string name="hungarian_keyboard_qwertz_all">Hungarian (qwertz) full</string>
     <string name="hungarian_keyboard_qwertz_all_desc">All accented chars arranged in 4 rows</string>
 
-    <string name="hungarian_keyboard_qwertz_swype">Hun (qwertz+áéöü)</string>
+    <string name="hungarian_keyboard_qwertz_swype">Hungarian (qwertz/clip.)</string>
     <string name="hungarian_keyboard_qwertz_swype_desc">Accented chars in 3 rows plus clipboard buttons</string>
 
-    <string name="hungarian_keyboard_qwertz_swype_repeat">Hun (qwertz+iíöőüű)</string>
+    <string name="hungarian_keyboard_qwertz_swype_repeat">Hungarian (qwertz/clip./repeat)</string>
     <string name="hungarian_keyboard_qwertz_swype_repeat_desc">Accented chars in 3 rows plus clipboard buttons repeated keypress to accented chars</string>
 
-    <string name="hungarian_keyboard_qwerty_swype">Hun (qwerty+áéöü)</string>
+    <string name="hungarian_keyboard_qwerty_swype">Hungarian (qwerty/clip.)</string>
     <string name="hungarian_keyboard_qwerty_swype_desc">Accented chars in 3 rows plus clipboard buttons</string>
 
-    <string name="hungarian_keyboard_qwerty_swype_repeat">Hun (qwerty+iíöőüű)</string>
+    <string name="hungarian_keyboard_qwerty_swype_repeat">Hungarian (qwerty/clip/repeat)</string>
     <string name="hungarian_keyboard_qwerty_swype_repeat_desc">Accented chars in 3 rows plus clipboard buttons repeated keypress to accented chars</string>
 
     <string name="hungarian_keyboard_yesaku">Hungarian - YESAKU (experimental)</string>
