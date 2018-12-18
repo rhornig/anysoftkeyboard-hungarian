@@ -46,7 +46,7 @@
     </Row>
 
     <Row>
-        <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/key_code_shift" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
         <Key android:codes="122" android:keyLabel="z" android:popupCharacters="=§"/>
         <Key android:codes="120" android:keyLabel="x" android:popupCharacters="!$"/>
         <Key android:codes="99" android:keyLabel="c" android:popupCharacters="\@&amp;"/>
@@ -54,7 +54,7 @@
         <Key android:codes="98" android:keyLabel="b" android:popupCharacters="8"/>
         <Key android:codes="110" android:keyLabel="n" android:popupCharacters="9"/>
         <Key android:codes="109" android:keyLabel="m" android:popupCharacters="0"/>
-        <Key android:codes="-5" android:keyWidth="15%p" android:horizontalGap="5%p" android:keyEdgeFlags="right" android:isRepeatable="true"/>
+        <Key android:codes="@integer/key_code_delete" android:keyWidth="15%p" android:horizontalGap="5%p" android:keyEdgeFlags="right" android:isRepeatable="true"/>
     </Row>
 
 </Keyboard>
